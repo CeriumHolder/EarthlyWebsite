@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EARTHLY Minecraft Earth Server">
+  <title>EARTHLY | Minecraft Earth Server</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="nav-shell">
+      <a href="#home" class="logo-box" aria-label="EARTHLY home">
+        <img src="images/logo.png" alt="EARTHLY logo">
+      </a>
+
+      <nav class="nav-links">
+        <a href="#community">Community</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#about">About</a>
+        <a href="https://earthly.tebex.store/" target="_blank" rel="noreferrer">Store</a>
+        <a href="https://map.earthlymc.org/" target="_blank" rel="noreferrer">Map</a>
+      </nav>
+
+      <button class="play-button" id="nav-copy-ip" type="button">PLAY NOW</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <h1>THE MINECRAFT<br>EARTH SERVER</h1>
+        <p>
+          Explore the world, create towns, build nations, trade with players,
+          and make your mark on EARTHLY.
+        </p>
+
+        <button class="ip-button" id="copy-ip" type="button">
+          IP: PLAY.EARTHLYMC.ORG
+        </button>
+
+        <a class="simple-link" href="https://discord.gg/earthly" target="_blank" rel="noreferrer">Discord</a>
+        <p id="copy-status" class="copy-status" aria-live="polite"></p>
+      </div>
+
+      <div class="hero-map-wrap">
+        <iframe
+          class="hero-map"
+          src="https://map.earthlymc.org/"
+          title="EARTHLY Live Map"
+          loading="eager"
+          allowfullscreen>
+        </iframe>
+        <div class="hero-map-fade"></div>
+      </div>
+    </section>
+
+    <section class="content-section" id="how-it-works">
+      <div class="two-column">
+        <div class="media-card">
+          <div class="image-slot">
+            <div class="image-placeholder">
+              <strong>SERVER SCREENSHOT</strong>
+              <span>Add images/server-city.jpg</span>
+            </div>
+            <img class="server-image" src="images/server-city.jpg" alt="EARTHLY city screenshot"
+                 onerror="this.style.display='none'">
+          </div>
+        </div>
+
+        <div class="text-block">
+          <h2>BUILD YOUR<br>MINECRAFT EMPIRE</h2>
+          <p>
+            Create a town, form a nation, invite residents, manage land,
+            run shops, and grow your influence across the map.
+          </p>
+          <p>
+            Build with friends, make alliances, compete with rivals,
+            and create a place people recognize.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section alt" id="community">
+      <div class="two-column reverse">
+        <div class="text-block">
+          <h2>EXPLORE A WORLD<br>BUILT BY PLAYERS</h2>
+          <p>
+            EARTHLY is built around long-term communities. Start small,
+            meet other players, grow your town, and help shape the server.
+          </p>
+          <p>
+            Whether you care about building, economy, politics, exploration,
+            or just hanging out, there is room to play your way.
+          </p>
+        </div>
+
+        <div class="media-card">
+          <div class="image-slot">
+            <div class="image-placeholder">
+              <strong>SERVER SCREENSHOT</strong>
+              <span>Add images/server-world.jpg</span>
+            </div>
+            <img class="server-image" src="images/server-world.jpg" alt="EARTHLY world screenshot"
+                 onerror="this.style.display='none'">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wide-feature" id="about">
+      <div class="wide-placeholder">
+        <div class="banner-fallback"></div>
+        <img class="banner-image" src="images/server-banner.jpg" alt="EARTHLY server banner"
+             onerror="this.style.display='none'">
+        <div class="wide-overlay"></div>
+        <div class="wide-content">
+          <h2>THE EARTHLY<br>MINECRAFT EXPERIENCE</h2>
+          <p>
+            A persistent world for towns, nations, trading, exploration,
+            and community-driven gameplay.
+          </p>
+          <button class="play-button large" id="wide-copy-ip" type="button">PLAY NOW</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-strip">
+      <div>
+        <span>SERVER IP</span>
+        <strong>play.earthlymc.org</strong>
+      </div>
+      <div>
+        <span>LIVE MAP</span>
+        <a href="https://map.earthlymc.org/" target="_blank" rel="noreferrer">map.earthlymc.org</a>
+      </div>
+      <div>
+        <span>COMMUNITY</span>
+        <a href="https://discord.gg/earthly" target="_blank" rel="noreferrer">Join Discord</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <h3>TUTORIALS</h3>
+        <a href="#home">How to join</a>
+        <a href="#how-it-works">How towns work</a>
+        <a href="#how-it-works">How nations work</a>
+        <a href="#how-it-works">How to claim land</a>
+      </div>
+
+      <div>
+        <h3>COMMUNITY</h3>
+        <a href="https://discord.gg/earthly" target="_blank" rel="noreferrer">Discord</a>
+        <a href="#community">Community</a>
+        <a href="#about">About</a>
+      </div>
+
+      <div>
+        <h3>EARTHLY</h3>
+        <a href="https://map.earthlymc.org/" target="_blank" rel="noreferrer">Live map</a>
+        <a href="https://store.example.com" target="_blank" rel="noreferrer">Store</a>
+        <a href="https://support.example.com" target="_blank" rel="noreferrer">Support</a>
+      </div>
+
+      <div>
+        <h3>SERVER</h3>
+        <button class="footer-copy" id="footer-copy-ip" type="button">Copy server IP</button>
+        <span>play.earthlymc.org</span>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <strong>EARTHLY</strong>
+      <span>Not affiliated with Mojang Studios or Microsoft.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

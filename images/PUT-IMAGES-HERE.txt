@@ -1,0 +1,5 @@
+Put these files in this folder:
+logo.png
+server-city.jpg
+server-world.jpg
+server-banner.jpg
